@@ -1,0 +1,207 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListing",
+            "request": "launch",
+            "mainClass": "ArrayListing",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "BeerSong",
+            "request": "launch",
+            "mainClass": "BeerSong",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "BooksTestDrive",
+            "request": "launch",
+            "mainClass": "BooksTestDrive",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "ClockTestDrive",
+            "request": "launch",
+            "mainClass": "ClockTestDrive",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "Count",
+            "request": "launch",
+            "mainClass": "Count",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "Dog",
+            "request": "launch",
+            "mainClass": "Dog",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "DooBee",
+            "request": "launch",
+            "mainClass": "DooBee",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "DrumKitTestDrive",
+            "request": "launch",
+            "mainClass": "DrumKitTestDrive",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "EchoTestDrive",
+            "request": "launch",
+            "mainClass": "EchoTestDrive",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "Excercisses",
+            "request": "launch",
+            "mainClass": "Excercisses",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "Exercise1b",
+            "request": "launch",
+            "mainClass": "Exercise1b",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "Exercise2b",
+            "request": "launch",
+            "mainClass": "Exercise2b",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "HobbitsTestDrive",
+            "request": "launch",
+            "mainClass": "HobbitsTestDrive",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "Loopy",
+            "request": "launch",
+            "mainClass": "Loopy",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "Mix4",
+            "request": "launch",
+            "mainClass": "Mix4",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "MixFor5",
+            "request": "launch",
+            "mainClass": "MixFor5",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "MultiFor",
+            "request": "launch",
+            "mainClass": "MultiFor",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "PhraseOMatics",
+            "request": "launch",
+            "mainClass": "PhraseOMatics",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "PoolPuzzleOne",
+            "request": "launch",
+            "mainClass": "PoolPuzzleOne",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "Puzzle4",
+            "request": "launch",
+            "mainClass": "Puzzle4",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "Shuffle1",
+            "request": "launch",
+            "mainClass": "Shuffle1",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "SimpleDotComGame",
+            "request": "launch",
+            "mainClass": "SimpleDotComGame",
+            "projectName": "HeadFirstJava_e9d6f7fe",
+             "vmArgs": "-Dfile.encoding=UTF-8"
+        },
+        {
+            "type": "java",
+            "name": "SimpleDotComTestDrive",
+            "request": "launch",
+            "mainClass": "SimpleDotComTestDrive",
+            "projectName": "HeadFirstJava_e9d6f7fe",
+             "vmArgs": "-Dfile.encoding=UTF-8"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "TestArrays",
+            "request": "launch",
+            "mainClass": "TestArrays",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "Triangle",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "Xcopy",
+            "request": "launch",
+            "mainClass": "Xcopy",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        }
+    ]
+}
