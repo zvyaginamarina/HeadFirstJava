@@ -4,8 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-
+        {
+            "type": "java",
+            "name": "TestBoats",
+            "request": "launch",
+            "mainClass": "TestBoats",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
         {
             "type": "java",
             "name": "Current File",
@@ -165,7 +170,7 @@
             "request": "launch",
             "mainClass": "SimpleDotComGame",
             "projectName": "HeadFirstJava_e9d6f7fe",
-             "vmArgs": "-Dfile.encoding=UTF-8"
+            "vmArgs": "-Dfile.encoding=UTF-8"
         },
         {
             "type": "java",
@@ -173,7 +178,7 @@
             "request": "launch",
             "mainClass": "SimpleDotComTestDrive",
             "projectName": "HeadFirstJava_e9d6f7fe",
-             "vmArgs": "-Dfile.encoding=UTF-8"
+            "vmArgs": "-Dfile.encoding=UTF-8"
         },
         {
             "type": "java",
