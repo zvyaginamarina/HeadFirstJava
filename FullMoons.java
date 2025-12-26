@@ -6,7 +6,7 @@ class FullMoons {
 
     
     public static void main(String[] args) {
-        Calendar c = Calendar.getInstance();
+        Calendar c = Calendar.getInstance(TimeZone.getTimeZone("UTC"));
         c.set(2004,0,7,15,40);
         long day1 = c.getTimeInMillis();
         for (int x = 0; x < 60; x++){
@@ -14,8 +14,5 @@ class FullMoons {
             c.setTimeInMillis(day1);
             out.println(String.format("full moon on %tc", c));
         }
-
     }
-    
-    
 }

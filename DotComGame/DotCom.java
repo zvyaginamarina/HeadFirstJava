@@ -42,9 +42,9 @@ public static void main(String[] args) {
     String userInput = "4";
     String result = dot.checkYourself(userInput);
 
-    System.out.println("Пользовательский ввод: " + userInput);
-    System.out.println("Результат: " + result); 
-    System.out.println("Оставшиеся ячейки: " + locationCells.size());
+    System.out.println("User input: " + userInput);
+    System.out.println("Result: " + result); 
+    System.out.println("Rest squares: " + locationCells.size());
 
     // int[] locations = {2,3,4};
     // dot.setLocationCells(locations);
