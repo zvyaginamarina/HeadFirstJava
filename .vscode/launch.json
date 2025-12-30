@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TwoButtons",
+            "request": "launch",
+            "mainClass": "TwoButtons",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
+            "name": "SimpleGui3C",
+            "request": "launch",
+            "mainClass": "SimpleGui3C",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
             "name": "TestBoats",
             "request": "launch",
             "mainClass": "TestBoats",
