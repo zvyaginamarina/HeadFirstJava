@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SimpleAnimation",
+            "request": "launch",
+            "mainClass": "SimpleAnimation",
+            "projectName": "HeadFirstJava_e9d6f7fe"
+        },
+        {
+            "type": "java",
             "name": "TwoButtons",
             "request": "launch",
             "mainClass": "TwoButtons",
