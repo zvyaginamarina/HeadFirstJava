@@ -14,7 +14,7 @@ public class Panel1 {
         panel.setLayout(new BoxLayout(panel,BoxLayout.Y_AXIS));
 
         JButton button = new JButton("Shock me");
-        JButton buttonTwo = new JButton("Bliss");
+        JButton buttonTwo = new JButton("Bliss!");
         JButton buttonThree = new JButton("Huh");
 
         panel.add(button);
