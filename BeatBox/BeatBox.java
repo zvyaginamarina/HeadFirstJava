@@ -53,43 +53,4 @@ public class BeatBox {
         buttonBox.add(downTempo);
 
         Box nameBox = new Box(BoxLayout.Y_AXIS);
-        for (int i = 0; i < 16; i++) {
-            nameBox.add(new Label(instrumentNames[i]));
-        }
-
-        background.add(BorderLayout.EAST, buttonBox);
-        background.add(BorderLayout.WEST, nameBox);
-
-        theFrame.getContentPane().add(background);
-
-        GridLayout grid = new GridLayout(16,16);
-        grid.setVgap(1);
-        grid.setHgap(2);
-        mainPanel = new JPanel(grid);
-        background.add(BorderLayout.CENTER, mainPanel);
-
-        for (int i = 0; i < 256; i++) {
-            JCheckBox c = new JCheckBox();
-            c.setSelected(false);
-            checkboxList.add(c);
-            mainPanel.add(c);
-        } // Конец цикла
-
-        setUpMidi();
-
-        theFrame.setBounds(50,50,300,300);
-        theFrame.pack();
-        theFrame.setVisible(true);
-    } // Закрываем метод
-
-    public void setUpMidi() {
-        try {
-            sequencer = MidiSystem.getSequencer();
-            sequencer.open();
-            sequence = new Sequence(Sequence.PPQ, 4);
-            track = sequence.createTrack();
-            sequencer.setTempoInBPM(120);
-
-        } catch (Exception e) {e.printStackTrace();}
-    } // Закрываем метод
-}
+        for (int i = 0; i < 16
